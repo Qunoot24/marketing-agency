@@ -15,3 +15,14 @@ const io = new IntersectionObserver((ents)=>{
   })
 },{threshold:.14});
 els.forEach(el=>io.observe(el));
+const faqItems = document.querySelectorAll('.faq-item');
+
+faqItems.forEach(item => {
+    const button = item.querySelector('.faq-question');
+    button.addEventListener('click', () => {
+        item.classList.toggle('active');
+    });
+});
+
+
+
