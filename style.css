@@ -219,4 +219,16 @@ footer{
     font-size: 1.2rem;
     color: #555;
 }
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background: #24ABF9;
+    color: #fff;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn:hover {
+    background: #012E3C;
+}
 
